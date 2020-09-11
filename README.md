@@ -295,8 +295,10 @@ Our tool-chain takes 1) plant model as hybrid automaton, 2) Controller program i
    
    ### .log files
       with execution time logs,
+      
    ### .smt2 files
       containing tool generated smt formula in smt-lib 2.0 format,
+      
    ### .json files
       to visualize counter examples (instructions given in .log file)
 
