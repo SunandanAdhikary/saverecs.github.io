@@ -301,21 +301,6 @@ Our tool-chain takes 1) plant model as hybrid automaton, 2) Controller program i
       to visualize counter examples (instructions given in .log file)
 
 
-# <a id="ref"></a> References
-
-#### <a id="1"></a>     [1] Zutshi et  al., “Symbolic-numeric  reachability  analysis  of  closed-loopcontrol software,” in HSCC, ACM, 2016
-
-#### <a id="2"></a>     [2] S.  Bak et  al., “Periodically-scheduled  controller  analysis  using  hybrid systems reachability and continuization,”  in RTSS, IEEE Computer Society, 2015, page 195–205.
-
-#### <a id="3"></a>     [3] X. Jin et al., “Powertrain  control  verification  benchmark,” in HSCC, ACM, 2014.
-
-#### <a id="4"></a>     [4] H. Zhao et  al., “Formal  verification of a descent  guidance control program of a lunar lander,” in FM 2014, Springer, 2014.
-
-#### <a id="5"></a>     [5] “Cruise Control: System Modeling,”  http://ctms.engin.umich.edu/CTMS/index.php?example=CruiseControl&section=SystemModeling.
-
-#### <a id="6"></a>     [6] T. Strathmann et  al., “Verifying  properties of an electro-mechanical braking system,” in ARCH14-15. EasyChair, 2015, page 49–56.
-
-
 
 An Example of SMT Encoding
 ==============================
@@ -608,3 +593,19 @@ void* controller(INPUT_VAL* iv, RETURN_VAL* rv);
 
 
 5. 	This SMT constraint is input to the [dReal SMT solver](https://github.com/dreal/dreal3), which eventually solves the ODEs. dReal SMT solver uses [CAPD DynSys library](http://capd.sourceforge.net/capdDynSys/docs/html/index.html) to solve the ODEs over Reals.
+
+
+# <a id="ref"></a> References
+
+#### <a id="1"></a>     [1] Zutshi et  al., “Symbolic-numeric  reachability  analysis  of  closed-loopcontrol software,” in HSCC, ACM, 2016
+
+#### <a id="2"></a>     [2] S.  Bak et  al., “Periodically-scheduled  controller  analysis  using  hybrid systems reachability and continuization,”  in RTSS, IEEE Computer Society, 2015, page 195–205.
+
+#### <a id="3"></a>     [3] X. Jin et al., “Powertrain  control  verification  benchmark,” in HSCC, ACM, 2014.
+
+#### <a id="4"></a>     [4] H. Zhao et  al., “Formal  verification of a descent  guidance control program of a lunar lander,” in FM 2014, Springer, 2014.
+
+#### <a id="5"></a>     [5] “Cruise Control: System Modeling,”  http://ctms.engin.umich.edu/CTMS/index.php?example=CruiseControl&section=SystemModeling.
+
+#### <a id="6"></a>     [6] T. Strathmann et  al., “Verifying  properties of an electro-mechanical braking system,” in ARCH14-15. EasyChair, 2015, page 49–56.
+
