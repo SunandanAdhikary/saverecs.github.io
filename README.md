@@ -2,7 +2,9 @@
 
 **SaVerECS** is an SMT-based verification tool to formally guarantee the performance and safety of an embedded control software under the influence of process or measurement noises and timing uncertainties (delay, jitters), before implementing them in real-time systems. Support for *non-linearities in the controlled plant and the controller software*, *real-valued constraints* and *control software code as input*, make this tool-chain ideal for verifying real-world hybrid systems. Our tool incorporates semantic support for capturing plant specifications, timing and value-based uncertainties (noise, precision errors), and the control software code.
 
-*Evaluated verification benchmarks can be found in [**this repository**](https://github.com/saverecs/Benchmark_SaverECS). The operational details of the designed tool-chain are documented [__here__](https://github.com/saverecs/SaverECS).*
+*The tool can be found [**here**](https://github.com/saverecs/SaverECS) and the evaluated verification benchmarks can be found in [**this repository**](https://github.com/saverecs/Benchmark_SaverECS).*
+
+__The operational details of the designed tool-chain and the benchmark specifications are documented in this web page.__
 
 --------------------------------------------------------------------------------------------------------
 
